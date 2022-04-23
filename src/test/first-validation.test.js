@@ -6,7 +6,6 @@ describe('Status code should be 200', function() {
     it('status code should be 200', async function() {
         var statusCode = await got.get('http://localhost:3000/posts')
                                   .then(response => response.statusCode);
-
         expect(statusCode).to.equal(200)
     })
   })
@@ -15,7 +14,6 @@ describe('Status code should be 200', function() {
   describe('titles must contains hola mundo', function() {
 
     it('contains hola mund', async function() {
-
       var expectedTitles = ['Hola mundo CSS','Hola mundo JS', 'Hola mundo JAVA'];
       var actualBody = await got.get('http://localhost:3000/posts')
                                   .then(response => response.body);
