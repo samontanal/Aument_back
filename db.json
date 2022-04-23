@@ -1,0 +1,25 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Hola mundo CSS",
+      "image": "url de la imagen",
+      "tag": "CSS",
+      "date": "2021-10-23T18:44:34+0000"
+    },
+    {
+      "id": 2,
+      "title": "Hola mundo JS",
+      "image": "url de la imagen",
+      "tag": "JAVASCRIPT",
+      "date": "2021-10-23T18:44:34+0000"
+    },
+    {
+      "id": 3,
+      "title": "Hola mundo JAVA",
+      "image": "url de la imagen",
+      "tag": "JAVA",
+      "date": "2021-10-23T18:44:34+0000"
+    }
+  ]
+}
